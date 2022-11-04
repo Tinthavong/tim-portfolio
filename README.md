@@ -1,5 +1,5 @@
 # Tim's Homepage
-[https://tinthavong.github.io/tim-portfolio/](https://tinthavong.github.io/tim-portfolio/)
+[https://tim-portfolio-iota.vercel.app/](https://tim-portfolio-iota.vercel.app/)
 
 ## Project structure
 
