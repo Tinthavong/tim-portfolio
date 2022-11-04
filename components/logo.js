@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import { Text, useColorModeValue } from '@chakra-ui/react'
-import FootprintIcon from './icons/footprint'
+import RocketIcon from './icons/rocket.js'
+
+
 import styled from '@emotion/styled'
 
 const LogoBox = styled.span`
@@ -17,7 +19,7 @@ const LogoBox = styled.span`
   }
 
   &:hover > svg {
-    transform: rotate(20deg);
+    transform: rotate(45deg);
   }
 `
 
@@ -26,14 +28,14 @@ const Logo = () => {
     <Link href="/" scroll={false}>
       <a>
         <LogoBox>
-          <FootprintIcon />
+          <RocketIcon />
           <Text
-            color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+            color={useColorModeValue("black")}
             fontFamily='M PLUS Rounded 1c", sans-serif'
             fontWeight="bold"
             ml={3}
           >
-            Takuya Matsuyama
+            Tim Inthavong
           </Text>
         </LogoBox>
       </a>
