@@ -12,6 +12,8 @@ import {
 	useColorModeValue,
 } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
+import { IoLogoTwitter, IoLogoGithub } from 'react-icons/io5'
+
 import Section from '../components/section'
 
 const Contact = () => (
