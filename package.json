@@ -1,8 +1,11 @@
 {
   "name": "portfolio-homepage",
   "version": "1.0.0",
+  "homepage": "https://tinthavong.github.io/pages",
   "description": "Tim's website",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
