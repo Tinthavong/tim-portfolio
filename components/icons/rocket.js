@@ -1,4 +1,4 @@
-const RocketIcon = props => {
+const RocketIcon = () => {
     return (
         <svg
         width="20pt"

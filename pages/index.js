@@ -14,7 +14,6 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -77,7 +76,7 @@ const Home = () => (
           Tim is a software developer passionate about video games and for building innovative
           digital products. He has a knack for game development, from planning and designing
           all the way to creating and executing from code and visual scripting tools.
-          Tools he's used are Unreal Engine, Unity3D, Blender, Substance Painter,
+          Tools he&apos;s used are Unreal Engine, Unity3D, Blender, Substance Painter,
           et al relevant to indie games.
           He publishes game dev related content on his
           <NextLink href="https://www.youtube.com/channel/UCqwdmzCkjteWpaSeTu1ysbw"

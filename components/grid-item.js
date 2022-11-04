@@ -20,7 +20,7 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
 	</Box>
 )
 
-export const WorkItem = ({ id, thumbnail, title, text, year, category }) => (
+export const WorkItem = ({ thumbnail, title, text, year, category }) => (
 	<Center>
 		<Box w="100%" textAlign="center" p={5} bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} boxShadow={'2xl'} borderRadius="lg" >
 			<Stack direction={"row"}>
