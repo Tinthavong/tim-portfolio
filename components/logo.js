@@ -25,7 +25,7 @@ const LogoBox = styled.span`
 
 const Logo = () => {
   return (
-    <Link href="/" scroll={false}>
+    <Link href="#/" scroll={false}>
       <a>
         <LogoBox>
           <RocketIcon />

@@ -32,7 +32,7 @@ const Contact = () => (
 
 			<Section delay={0.1}>
 				<Box align="center" my={4}>
-					<NextLink href="/" passHref scroll={false}>
+					<NextLink href="#/" passHref scroll={false}>
 						<Button
 							colorScheme={useColorModeValue('pink', 'pink')}
 							>
