@@ -86,7 +86,7 @@ const Home = () => (
           </NextLink>.
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="#/works" passHref scroll={false}>
+          <NextLink href="/works" passHref scroll={false}>
             <Button colorScheme="pink">
               My Portfolio
             </Button>
