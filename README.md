@@ -1,7 +1,6 @@
 # Tim's Homepage
 
-[https://www.craftz.dog/](https://www.craftz.dog/)
-
+[https://tinthavong.github.io/](https://tinthavong.github.io/)
 
 ## Project structure
 
