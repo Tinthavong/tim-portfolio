@@ -34,7 +34,6 @@ export const WorkItem = ({ thumbnail, title, text, year, category }) => (
 			<Image
 				src={thumbnail}
 				alt={title}
-				placeholder="blur"
 				w="lg"
 			/>
 		</Box>

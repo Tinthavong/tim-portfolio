@@ -15,6 +15,7 @@ import Layout from '../components/layouts/article'
 import { IoLogoTwitter, IoLogoGithub } from 'react-icons/io5'
 
 import Section from '../components/section'
+import { EmailIcon } from '@chakra-ui/icons'
 
 const Contact = () => (
 	<Layout title="Contact">
@@ -27,16 +28,14 @@ const Contact = () => (
 				bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
 				css={{ backdropFilter: 'blur(10px)' }}
 			>
-				You can contact me by clicking the button below.
+				You can check out my CV by clicking the button below.
 			</Box>
-
 			<Section delay={0.1}>
 				<Box align="center" my={4}>
-					<NextLink href="/" passHref scroll={false}>
+					<NextLink target="_blank" href="/Tim_Inthavong_Resume.pdf" passHref rel="noreferrer" scroll={false}>
 						<Button
-							colorScheme={useColorModeValue('pink', 'pink')}
-							>
-							Contact me
+							colorScheme={useColorModeValue('pink', 'pink')}	>
+							Resum&eacute;
 						</Button>
 					</NextLink>
 				</Box>
@@ -49,6 +48,7 @@ const Contact = () => (
 
 				<List>
 					<ListItem>
+
 						<Link href="https://github.com/Tinthavong" target="_blank">
 							<Button
 								variant="ghost"
@@ -69,6 +69,20 @@ const Contact = () => (
 							GameDev Related
 						</Button>
 					</Link>
+
+					<ListItem>
+
+						<Link href="mailto:timainthavong@gmail.com" target="_blank">
+							<Button
+								variant="ghost"
+								colorScheme='#ff63c3'
+								leftIcon={<EmailIcon />}
+							>
+								Email  &#40;right click to copy!&#41;
+							</Button>
+						</Link>
+					</ListItem>
+
 				</List>
 			</Section>
 

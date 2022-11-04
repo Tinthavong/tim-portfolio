@@ -17,7 +17,7 @@ import Section from '../components/section'
 import { IoLogoTwitter, IoLogoGithub } from 'react-icons/io5'
 import Image from 'next/image'
 
-const ProfileImage = chakra(Image, {
+const ProfileImage = chakra(Image, { 
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
 })
 

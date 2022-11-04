@@ -3,7 +3,10 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkItem } from '../components/grid-item'
 
-import thumbBeazz from '../public/images/works/portfolio_beazz.png'
+import toonTanks from '../public/images/ToonTanks.png'
+import faceplantDemo from '../public/images/faceplantWebPromo.gif'
+import causationDemo from '../public/images/causationGifPromo.gif'
+
 
 const Works = () => (
 	<Layout title="Works">
@@ -22,12 +25,10 @@ const Works = () => (
 			<SimpleGrid columns={[1, 1, 1]} gap={6}>
 				<Section delay={0.2}>
 					<WorkItem
-						thumbnail={thumbBeazz}
+						thumbnail={toonTanks}
 						title="Toon Tanks"
-						text=" Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-					nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-					erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-					et ea rebum."
+						text="Developed in Unreal Engine, Toon Tanks is a 3D top down action game inspired by the 'bullet hell' subgenre of games. 
+						Survive as long as you can as waves of enemies try to take you down. "
 						year={2022}
 					/>
 				</Section>
@@ -36,13 +37,17 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 1]} gap={6}>
 				<Section delay={0.2}>
 					<WorkItem
-						thumbnail={thumbBeazz}
-						title="Falling Guys"
-						text=" Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-					nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-					erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-					et ea rebum. "
-						year={2021}
+						thumbnail={causationDemo}
+						title="Causation"
+						text=" Developed in Unity, Causation is a 2D pixel art action game that tells the story of a family of bounty
+						hunters. The player controls three characters, each with a unique story and different mechanics.
+
+						I was de facto lead developer, handled version control with github and developed the core gameplay. I implemented
+						character
+						animations and created
+						cutscenes
+						with Unity's timeline sequencer. "
+						year={2020}
 					/>
 				</Section>
 			</SimpleGrid>
@@ -50,13 +55,13 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 1]} gap={6}>
 				<Section delay={0.2}>
 					<WorkItem
-						thumbnail={thumbBeazz}
-						title="Tower Rush"
-						text=" Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-					nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-					erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-					et ea rebum. "
-						year={2021}
+						thumbnail={faceplantDemo}
+						title="Faceplant"
+						text=" Developed in Unity, Faceplant is a first person 3D platformer. The player uses momentum from
+						running, coupled with a grapple hook to navigate. I contributed by creating an NPC AI that
+						has simple behavior for the player to latch onto and creating every 3D model. I utilized
+						shaders in Unity to create animated clouds. I created and implemented a highscore database."
+						year={2020}
 					/>
 				</Section>
 			</SimpleGrid>
