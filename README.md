@@ -1,5 +1,4 @@
 # Tim's Homepage
-
 [https://tinthavong.github.io/tim-portfolio/](https://tinthavong.github.io/tim-portfolio/)
 
 ## Project structure
