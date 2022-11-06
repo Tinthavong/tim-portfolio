@@ -12,7 +12,7 @@ import {
 	useColorModeValue,
 } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
-import { IoLogoTwitter, IoLogoGithub } from 'react-icons/io5'
+import { IoGameController, IoLogoGithub } from 'react-icons/io5'
 
 import Section from '../components/section'
 import { EmailIcon } from '@chakra-ui/icons'
@@ -28,16 +28,16 @@ const Contact = () => (
 				bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
 				css={{ backdropFilter: 'blur(10px)' }}
 			>
-				You can check out my CV by clicking the button below.
+				Check out my resum&eacute; below
 			</Box>
 			<Section delay={0.1}>
 				<Box align="center" my={4}>
-					<NextLink target="_blank" href="/Tim_Inthavong_Resume.pdf" passHref rel="noreferrer" scroll={false}>
+					<Link href="/Tim_Inthavong_Resume.pdf" target="_blank">
 						<Button
 							colorScheme={useColorModeValue('pink', 'pink')}	>
 							Resum&eacute;
 						</Button>
-					</NextLink>
+					</Link>
 				</Box>
 			</Section>
 
@@ -60,13 +60,13 @@ const Contact = () => (
 						</Link>
 					</ListItem>
 
-					<Link href="https://twitter.com/beteljuche" target="_blank">
+					<Link href="https://tinthavong.itch.io/" target="_blank">
 						<Button
 							variant="ghost"
 							colorScheme='#ff63c3'
-							leftIcon={<IoLogoTwitter />}
-						>
-							GameDev Related
+							leftIcon={<IoGameController/>}
+							>
+							Games on itch.io
 						</Button>
 					</Link>
 
@@ -78,7 +78,7 @@ const Contact = () => (
 								colorScheme='#ff63c3'
 								leftIcon={<EmailIcon />}
 							>
-								Email  &#40;right click to copy!&#41;
+								Email  &#40;right click, copy!&#41;
 							</Button>
 						</Link>
 					</ListItem>

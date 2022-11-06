@@ -14,10 +14,11 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoGithub } from 'react-icons/io5'
+import { IoGameController, IoLogoGithub } from 'react-icons/io5'
+
 import Image from 'next/image'
 
-const ProfileImage = chakra(Image, { 
+const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
 })
 
@@ -76,11 +77,11 @@ const Home = () => (
         <Paragraph>
           Tim is a software developer passionate about video games and for building innovative
           digital products. He has a knack for game development, from planning and designing
-          all the way to creating and executing from code and visual scripting tools.
-          Tools he&apos;s used are Unreal Engine, Unity3D, Blender, Substance Painter,
-          et al relevant to indie games.
+          to creating and executing code.
+          He is experienced with Unreal Engine, Unity3D, Blender, Substance Painter,
+          et al relevant to game development.
           He publishes game dev related content on his
-          <NextLink href="https://www.youtube.com/channel/UCqwdmzCkjteWpaSeTu1ysbw"
+          <NextLink href="https://www.youtube.com/@TimMakesGames"
             passHref>
             <Link target="_blank"> YouTube channel</Link>
           </NextLink>.
@@ -114,18 +115,17 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          Hobbies
+          Interests
         </Heading>
         <Paragraph>
-          Art,
-          Drawings,
-          3D Modeling, Gaming, Machine Learning
+          Art, Drawings, 3D Modeling,
+          Gaming, Machine Learning
         </Paragraph>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          On the web
+          Links
         </Heading>
         <List>
           <ListItem>
@@ -140,13 +140,13 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/beteljuche" target="_blank">
+            <Link href="https://tinthavong.itch.io/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="#ff63c3"
-                leftIcon={<IoLogoTwitter />}
+                leftIcon={<IoGameController />}
               >
-                GameDev Related
+                Games on itch.io
               </Button>
             </Link>
           </ListItem>

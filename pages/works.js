@@ -27,8 +27,8 @@ const Works = () => (
 					<WorkItem
 						thumbnail={toonTanks}
 						title="Toon Tanks"
-						text="Developed in Unreal Engine, Toon Tanks is a 3D top down action game inspired by the 'bullet hell' subgenre of games. 
-						Survive as long as you can as waves of enemies try to take you down. "
+						text="Developed in Unreal Engine, Toon Tanks is a top down 3D action game inspired by the 'bullet hell' subgenre. 
+						The player's goal is to survive as long as they can as waves of enemies try to take them down."
 						year={2022}
 					/>
 				</Section>

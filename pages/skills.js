@@ -34,7 +34,7 @@ const Skills = () => (
       bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       css={{ backdropFilter: 'blur(10px)' }}
     >
-      A list of some skills and tools I utilize.
+      A list of skills and tools I utilize.
     </Box>
       <Heading variant="section-title" mb={5}>
         Programming
