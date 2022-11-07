@@ -25,7 +25,12 @@ export const WorkItem = ({ thumbnail, title, text, year, category }) => (
 		<Box w="100%" textAlign="center" p={5} bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} boxShadow={'2xl'} borderRadius="lg" >
 			<Stack direction={"row"}>
 				<Heading textAlign="left" fontSize={24} variant="section-title">
-					{title}
+				<LinkOverlay href={`${id}`}>
+							<Heading textAlign="left" fontSize={24} variant="section-title">
+								{title}
+							</Heading>
+						</LinkOverlay>
+						<Box><ChevronRightIcon /></Box>
 				</Heading>
 				<Box><Badge fontSize={16} color={useColorModeValue('purple.700', 'blue.200')}>{category}</Badge></Box>
 			</Stack>

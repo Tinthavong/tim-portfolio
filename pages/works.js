@@ -37,6 +37,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 1]} gap={6}>
 				<Section delay={0.2}>
 					<WorkItem
+						id="https://i.imgur.com/a7Trcsg.mp4"
 						thumbnail={causationDemo}
 						title="Causation"
 						text=" Developed in Unity, Causation is a 2D pixel art action game that tells the story of a family of bounty
@@ -48,6 +49,7 @@ const Works = () => (
 						cutscenes
 						with Unity's timeline sequencer. You can play it here: https://tinthavong.itch.io/causation-demo"
 						year={2020}
+						Category={"Demo Footage"}
 					/>
 				</Section>
 			</SimpleGrid>
@@ -55,6 +57,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 1]} gap={6}>
 				<Section delay={0.2}>
 					<WorkItem
+						id="https://i.imgur.com/7WX35Il.mp4"
 						thumbnail={faceplantDemo}
 						title="Faceplant"
 						text=" Developed in Unity, Faceplant is a first person 3D platformer. The player uses momentum from
@@ -62,6 +65,7 @@ const Works = () => (
 						has simple behavior for the player to latch onto and creating every 3D model. I utilized
 						shaders in Unity to create animated clouds. I created and implemented a highscore database."
 						year={2020}
+						Category={"Demo Footage"}
 					/>
 				</Section>
 			</SimpleGrid>
