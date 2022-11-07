@@ -4,8 +4,8 @@ import Section from '../components/section'
 import { WorkItem } from '../components/grid-item'
 
 import toonTanks from '../public/images/ToonTanks.png'
-import faceplantDemo from '../public/images/faceplantWebPromo.gif'
-import causationDemo from '../public/images/causationGifPromo.gif'
+import faceplantDemo from '../public/images/faceplantDemo.png'
+import causationDemo from '../public/images/causationDemo.png'
 
 
 const Works = () => (
@@ -46,7 +46,7 @@ const Works = () => (
 						character
 						animations and created
 						cutscenes
-						with Unity's timeline sequencer. "
+						with Unity's timeline sequencer. You can play it here: https://tinthavong.itch.io/causation-demo"
 						year={2020}
 					/>
 				</Section>
