@@ -81,7 +81,7 @@ const Home = () => (
           He is experienced with Unreal Engine, Unity3D, Blender, Substance Painter,
           et al relevant to game development.
           He publishes game dev related content on his
-          <NextLink href="https://www.youtube.com/@TimMakesGames"
+          <NextLink href="https://www.youtube.com/@Winter-Triangle"
             passHref>
             <Link target="_blank"> YouTube channel</Link>
           </NextLink>.
